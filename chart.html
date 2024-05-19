@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Admin Dashboard | By Code Info</title>
+      <link rel="stylesheet" href="asesst/css/leftDashBoard.css" />
+      <link rel="stylesheet" href="asesst/css/button.css">
+      <link rel="stylesheet" href="asesst/css/dashboard.css">
+      <link rel="stylesheet" href="asesst/css/chart.css">
+      <!-- Font Awesome Cdn Link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+      <!--chart.js-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+      <!--chart.js-->
+    </head>
+    <body>
+      <header class="header">
+        <div class="logo">
+          <a href="#">@TingHow</a>
+        </div>
+        <div class="UpLoadContent">
+          <button class="button btn-favourite">New text Content</button>
+          <button class="button btn-favourite">New Img Home Content</button>
+       </div>
+        <div class="header-icons">
+          <div class="account">
+            <img src="asesst/img/av2.jpg" alt="">
+            <h5>Hi, Nguyen</h5>
+          </div>
+        </div>
+      </header>
+
+      
+      <div class="container">
+        <nav>
+          <div class="side_navbar">
+            <span>Main Menu</span>
+            <a href="#" class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="#"><i class="fa-solid fa-box"></i> Product</a>
+            <a href="#"><i class="fa-solid fa-users"></i> Account</a>
+            <a href="#"><i class="fa-solid fa-crown"></i> VIP Customer</a>
+            <a href="#"><i class="fa-solid fa-chart-simple"></i> Chart</a>
+            <a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+          </div>
+        </nav>
+        <!--dashboard css-->
+        <div class="DashBoard">
+            <div class="chart">
+                <table class="graph">
+                    <caption style="font-size: 15px;">Bar Chart Order Category</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Percent</th>
+                        </tr>
+                    </thead><tbody>
+                        <tr style="height:100%">
+                            <th scope="row">Sneaker</th>
+                            <td><span>85%</span></td>
+                        </tr>
+                        <tr style="height:23%">
+                            <th scope="row">Jacket</th>
+                            <td><span>23%</span></td>
+                        </tr>
+                        <tr style="height:7%">
+                            <th scope="row">Pant</th>
+                            <td><span>7%</span></td>
+                        </tr>
+                        <tr style="height:38%">
+                            <th scope="row">Shirt</th>
+                            <td><span>38%</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <canvas id="myChart" style="width:100%;max-width:600px; margin-top: 100px;"></canvas>
+                
+                <ul style="display: none;">
+                    <li class="pie-chart" name="Nike" value="45"></li>
+                    <li class="pie-chart" name="Adidas" value="20"></li>
+                    <li class="pie-chart" name="Puma" value="10"></li>
+                    <li class="pie-chart" name="Converse" value="25"></li>
+                </ul>
+            </div>
+        </div>
+        <!---->
+      </div>
+      <script src="asesst/js/dashboard.js"></script>
+      <script src="asesst/js/dashboard.js"></script>
+    </body>
+    </html>

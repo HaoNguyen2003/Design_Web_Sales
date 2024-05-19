@@ -1,0 +1,73 @@
+.DashBoard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  .UpLoadContent{
+      margin-bottom: 10px;
+  }
+  .main-cards {
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+  .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 25px;
+      min-width: 200px;
+      border-radius: 5px;
+    }
+    
+    .card:first-child {
+      background-color: #2962ff;
+    }
+    
+    .card:nth-child(2) {
+      background-color: #ff6d00;
+    }
+    
+    .card:nth-child(3) {
+      background-color: #2e7d32;
+    }
+    
+    .card:nth-child(4) {
+      background-color: #d50000;
+    }
+    
+    .card-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .card-inner > .material-icons-outlined {
+      font-size: 45px;
+    }
+    .Page-coat{
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      display: none;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      background-color: rgba(0, 0, 0, 0.6);
+      justify-content: center;
+      align-items: center;
+    }
+    .describe{
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 20px 0 ;
+    }
+
+  

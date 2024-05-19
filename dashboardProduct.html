@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Admin Dashboard | By Code Info</title>
+      <link rel="stylesheet" href="asesst/css/leftDashBoard.css"/>
+      <link rel="stylesheet" href="asesst/css/button.css">
+      <link rel="stylesheet" href="asesst/css/dashboardProduct.css">
+      <link rel="stylesheet" href="asesst/css/dashboard.css">
+      <link rel="stylesheet" href="asesst/css/table.css">
+      <!-- Font Awesome Cdn Link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    </head>
+    <body>
+      <header class="header">
+        <div class="logo">
+          <a href="#">@TingHow</a>
+        </div>
+        <div class="UpLoadContent">
+          <button class="button btn-favourite">New text Content</button>
+          <button class="button btn-favourite">New Img Home Content</button>
+       </div>
+        <div class="header-icons">
+          <div class="account">
+            <img src="asesst/img/av2.jpg" alt="">
+            <h5>Hi, Nguyen</h5>
+          </div>
+        </div>
+      </header>
+
+      
+      <div class="container">
+        <nav>
+          <div class="side_navbar">
+            <span>Main Menu</span>
+            <a href="#" class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="#"><i class="fa-solid fa-box"></i> Product</a>
+            <a href="#"><i class="fa-solid fa-users"></i> Account</a>
+            <a href="#"><i class="fa-solid fa-crown"></i> VIP Customer</a>
+            <a href="#"><i class="fa-solid fa-chart-simple"></i> Chart</a>
+            <a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+          </div>
+        </nav>
+        <!--dashboard css-->
+        <div class="DashBoard">
+          <main class="table" id="customers_table">
+            <section class="table__header">
+                <h1>Customer's Orders</h1>
+                <div class="input-group">
+                    <input type="search" placeholder="Search Data...">
+                    <img src="asesst/img/search.png" alt="">
+                </div>
+                <div class="export__file">
+                  <!--in-->
+                    <a for="export-file" id="view_order" class="export__file-btn NewProduct" title="New Product">
+                    </a>
+                  <!--in-->
+                </div>
+            </section>
+            <section class="table__body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Id <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Tên Sản Phẩm <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Ngày Tạo <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Ngày Sủa <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Giá Nhập <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Giá Bán <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Discount <span class="icon-arrow">&UpArrow;</span></th>
+                            <th>Option</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 1 </td>
+                            <td> <img src="asesst/img/air1.png" alt="">Nike low</td>
+                            <td> 2021-21-10 </td>
+                            <td> 2022-21-10 </td>
+                            <td>
+                                <strong>$100.00</strong>
+                            </td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td class="gr-btn">
+                              <a><i class="fa-solid fa-trash"></i></a>
+                              <a><i class="fa-solid fa-eye-slash"></i></a>
+                              <a><i class="fa-regular fa-eye"></i></a>
+                              <a><i class="fa-solid fa-pen"></i></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1 </td>
+                            <td> <img src="asesst/img/air1.png" alt="">Nike low</td>
+                            <td> 2021-21-10 </td>
+                            <td> 2022-21-10 </td>
+                            <td>
+                                <strong>$100.00</strong>
+                            </td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td class="gr-btn">
+                              <a><i class="fa-solid fa-trash"></i></a>
+                              <a><i class="fa-solid fa-eye-slash"></i></a>
+                              <a><i class="fa-regular fa-eye"></i></a>
+                              <a><i class="fa-solid fa-pen"></i></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1 </td>
+                            <td> <img src="asesst/img/air1.png" alt="">Nike low</td>
+                            <td> 2021-21-10 </td>
+                            <td> 2022-21-10 </td>
+                            <td>
+                                <strong>$100.00</strong>
+                            </td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td class="gr-btn">
+                              <a><i class="fa-solid fa-trash"></i></a>
+                              <a><i class="fa-solid fa-eye-slash"></i></a>
+                              <a><i class="fa-regular fa-eye"></i></a>
+                              <a><i class="fa-solid fa-pen"></i></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1 </td>
+                            <td> <img src="asesst/img/air1.png" alt="">Nike low</td>
+                            <td> 2021-21-10 </td>
+                            <td> 2022-21-10 </td>
+                            <td>
+                                <strong>$100.00</strong>
+                            </td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td class="gr-btn">
+                              <a><i class="fa-solid fa-trash"></i></a>
+                              <a><i class="fa-solid fa-eye-slash"></i></a>
+                              <a><i class="fa-regular fa-eye"></i></a>
+                              <a><i class="fa-solid fa-pen"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        </div>
+        <!---->
+        <!---->
+
+      </div>
+      
+      <div id="Page-coat" class="Page-coat">
+        <div class="fromProduct">
+          <a id="close-cart" class="close-myform"><i class="fa-solid fa-circle-xmark"></i></a>
+          <div class="title-formProduct">Thêm mới sản phẩm</div>
+          <div class="title-formProduct">sửa sản phẩm</div>
+          <form class="myform" action="">
+            <label class="small mb-1" for="inputFullNameProduct">Tên sản phẩm</label>
+            <input class="form-control" id="inputFullNameProduct" type="text" placeholder="Nhập tên sản phẩm">
+
+            <label class="small mb-1" for="inputTitleProduct">Tiêu đề sản phẩm</label>
+            <input class="form-control" id="inputTitleProduct" type="text" placeholder="Nhập tiêu đề phẩm">
+
+            <label class="small mb-1" for="inputPriceIn">Giá Nhập</label>
+            <input class="form-control" id="inputPriceIn" type="number" min="0" step="any">
+
+            <label class="small mb-1" for="inputPriceOut">Giá Xuất</label>
+            <input class="form-control" id="inputPriceOut" type="number" min="0" step="any">
+
+            <label class="small mb-1" for="inputDiscount">Giảm giá</label>
+            <input class="form-control" id="inputDiscount" type="number" min="0" max="100" step="any">
+
+            <label class="small mb-1" for="Inputcategory">Loại hàng</label>
+            <select id="Inputcategory">
+              <option value="1">Sneaker</option>
+              <option value="2">Jacker</option>
+              <option value="3">Shirt</option>
+              <option value="4">Pant</option>
+            </select>
+
+            <label class="small mb-1" for="InputBrand">Nhãn hàng</label>
+            <select id="InputBrand">
+              <option value="1">Sneaker</option>
+              <option value="2">Jacker</option>
+              <option value="3">Shirt</option>
+              <option value="4">Pant</option>
+            </select>
+
+
+            <label class="small mb-1" for="inputMainImg">Ảnh chính</label>
+            <input class="form-control" id="inputMainImg" type="file">
+
+            <label class="small mb-1" for="inputImg1">Ảnh mô tả 1</label>
+            <input class="form-control" id="inputImg1" type="file">
+
+            <label class="small mb-1" for="inputImg2">Ảnh mô tả 2</label>
+            <input class="form-control" id="inputImg2" type="file">
+
+            <label class="small mb-1" for="inputImg3">Ảnh mô tả 3</label>
+            <input class="form-control" id="inputImg3" type="file">
+
+            <div class="describe">
+              <label class="small mb-1" for="Inputdescribe">Mô tả</label>
+              <textarea id="Inputdescribe" rows="7" cols="20"></textarea>
+            </div>
+
+            <button class="button btn-add">Add product</button>
+          </form>
+        </div>
+      </div>
+
+      <script src="asesst/js/dashboard.js"></script>
+      <script src="asesst/js/button.js"></script>
+    </body>
+    </html>

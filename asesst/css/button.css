@@ -1,0 +1,60 @@
+.button {
+    padding: 10px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+  .button + .button{
+    margin-top: 15px;
+  }
+  .button:active {
+    transform: translateY(-1px);
+  }
+  .checkout{
+    color: #fff;
+    background-color: #000;
+  }
+  .checkout:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .btn-add{
+    background-color: #111111;
+    color: #fff;
+  }
+  .btn-favourite{
+    background-color: #fff;
+    color: #111111;
+    border: 2px solid #111111;
+  }
+  .btn-favourite:hover{
+    background-color: #111111;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .btn-add:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.btn-icon{
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #fff;
+}

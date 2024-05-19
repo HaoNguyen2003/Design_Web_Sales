@@ -1,0 +1,312 @@
+<span style="font-family: verdana, geneva, sans-serif;"><!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Admin Dashboard | By Code Info</title>
+      <link rel="stylesheet" href="asesst/css/leftDashBoard.css" />
+      <link rel="stylesheet" href="asesst/css/button.css">
+      <link rel="stylesheet" href="asesst/css/dashboard.css">
+      <link rel="stylesheet" href="asesst/css/table.css">
+      <link rel="stylesheet" href="asesst/css/cart.css">
+      <!-- Font Awesome Cdn Link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    </head>
+    <body>
+      <header class="header">
+        <div class="logo">
+          <a href="#">@TingHow</a>
+        </div>
+        <div class="header-icons">
+          <div class="account">
+            <img src="asesst/img/av2.jpg" alt="">
+            <h5>Hi, Nguyen</h5>
+          </div>
+        </div>
+      </header>
+
+      
+      <div id="container" class="container">
+        <nav>
+          <div class="side_navbar">
+            <span>Main Menu</span>
+            <a href="#" class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="#"><i class="fa-solid fa-box"></i> Product</a>
+            <a href="#"><i class="fa-solid fa-users"></i> Account</a>
+            <a href="#"><i class="fa-solid fa-crown"></i> VIP Customer</a>
+            <a href="#"><i class="fa-solid fa-chart-simple"></i> Chart</a>
+            <a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+          </div>
+        </nav>
+        <!--dashboard css-->
+        <div class="DashBoard">
+          <div class="main-cards">
+
+            <div class="card">
+              <div class="card-inner">
+                <h3>BRAND</h3>
+                <i class="fa-solid fa-copyright"></i>
+              </div>
+              <h1>4</h1>
+
+            </div>
+  
+            <div class="card">
+              <div class="card-inner">
+                <h3>CATEGORIES</h3>
+                <i class="fa-solid fa-shirt"></i>
+              </div>
+              <h1>25</h1>
+            </div>
+  
+            <div class="card">
+              <div class="card-inner">
+                <h3>CUSTOMERS</h3>
+                
+              </div>
+              <h1>1500</h1>
+            </div>
+  
+            <div class="card">
+              <div class="card-inner">
+                <h3>BILL</h3>
+              </div>
+              <h1>56</h1>
+            </div>
+  
+          </div>
+          <main class="table" id="customers_table">
+            <section class="table__header">
+                <h1>Customer's Orders</h1>
+                <div class="input-group">
+                    <input type="search" placeholder="Search Data...">
+                    <img src="asesst/img/search.png" alt="">
+                </div>
+                <div class="export__file">
+                  <!--in-->
+                    <a for="export-file" class="export__file-btn export__fileExcel-btn" title="Export File">
+                    </a>
+                  <!--in-->
+                </div>
+            </section>
+            <section class="table__body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Id <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Customer <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Location <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Order Date <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Status <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Amount <span class="icon-arrow">&UpArrow;</span></th>
+                            <th>Option</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 1 </td>
+                            <td> <img src="asesst/img/av2.jpg" alt="">Zinzu Chan Lee</td>
+                            <td> Seoul </td>
+                            <td> 17 Dec, 2022 </td>
+                            <td>
+                                <p class="status delivered">Delivered</p>
+                            </td>
+                            <td> <strong> $128.90 </strong></td>
+                            <td class="gr-btn">
+                              <a><i class="fa-solid fa-truck"></i></a>
+                              <a><i class="fa-solid fa-ban"></i></a>
+                              <a id="view_order" class="view_order"><i class="fa-regular fa-eye"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                          <td> 1 </td>
+                          <td> <img src="asesst/img/av2.jpg" alt="">Zinzu Chan Lee</td>
+                          <td> Seoul </td>
+                          <td> 17 Dec, 2022 </td>
+                          <td>
+                              <p class="status delivered">Delivered</p>
+                          </td>
+                          <td> <strong> $128.90 </strong></td>
+                          <td>
+                            <button><i class="fa-solid fa-truck"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td> 1 </td>
+                          <td> <img src="asesst/img/av2.jpg" alt="">Zinzu Chan Lee</td>
+                          <td> Seoul </td>
+                          <td> 17 Dec, 2022 </td>
+                          <td>
+                              <p class="status delivered">Delivered</p>
+                          </td>
+                          <td> <strong> $128.90 </strong></td>
+                          <td>
+                            <button><i class="fa-solid fa-truck"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td> 1 </td>
+                        <td> <img src="asesst/img/av2.jpg" alt="">Zinzu Chan Lee</td>
+                        <td> Seoul </td>
+                        <td> 17 Dec, 2022 </td>
+                        <td>
+                            <p class="status delivered">Delivered</p>
+                        </td>
+                        <td> <strong> $128.90 </strong></td>
+                        <td>
+                          <button><i class="fa-solid fa-truck"></i></button>
+                          <button><i class="fa-regular fa-eye"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td> 1 </td>
+                        <td> <img src="asesst/img/av2.jpg" alt="">Zinzu Chan Lee</td>
+                        <td> Seoul </td>
+                        <td> 17 Dec, 2022 </td>
+                        <td>
+                            <p class="status delivered">Delivered</p>
+                        </td>
+                        <td> <strong> $128.90 </strong></td>
+                        <td>
+                          <button><i class="fa-solid fa-truck"></i></button>
+                          <button><i class="fa-regular fa-eye"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td> 1 </td>
+                        <td> <img src="asesst/img/av2.jpg" alt="">Zinzu Chan Lee</td>
+                        <td> Seoul </td>
+                        <td> 17 Dec, 2022 </td>
+                        <td>
+                            <p class="status delivered">Delivered</p>
+                        </td>
+                        <td> <strong> $128.90 </strong></td>
+                        <td>
+                          <button><i class="fa-solid fa-truck"></i></button>
+                          <button><i class="fa-regular fa-eye"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        </div>
+        <!---->
+      </div>
+      <!--dashboard-->
+      <div id="Page-coat" class="Page-coat">
+        <!--cart css cart.css-->
+       <div class='cart-order'>
+        <div class='window'>
+          <div class='order-info'>
+            <div class='order-info-content'>
+              <h2>Danh Sách Sản Phẩm</h2>
+                      <div class='line'></div>
+            <!--sp t1-->
+              <table class='order-table'>
+                <tbody>
+                  <tr>
+                    <td>
+                        <img src='asesst/img/air1.png' class='full-width'></img>
+                    </td>
+                    <td>
+                      <br> <span class='thin'>Nike</span>
+                      <br> Free Run 3.0 Women<br> <span class='thin small'>Size: 10.5<br>số lượng: 2<br></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class='price'>$99.95</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            <!---->
+              <div class='line'></div>
+               <!--sp t1-->
+               <table class='order-table'>
+                <tbody>
+                  <tr>
+                    <td>
+                        <img src='asesst/img/air1.png' class='full-width'></img>
+                    </td>
+                    <td>
+                      <br> <span class='thin'>Nike</span>
+                      <br> Free Run 3.0 Women<br> <span class='thin small'>Size: 10.5<br>số lượng: 2<br></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class='price'>$99.95</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            <!---->
+              <div class='line'></div>
+               <!--sp t1-->
+               <table class='order-table'>
+                <tbody>
+                  <tr>
+                    <td>
+                        <img src='asesst/img/air1.png' class='full-width'></img>
+                    </td>
+                    <td>
+                      <br> <span class='thin'>Nike</span>
+                      <br> Free Run 3.0 Women<br> <span class='thin small'>Size: 10.5<br>số lượng: 2<br></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class='price'>$99.95</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            <!---->
+              <div class='line'></div>
+              <div class='total'>
+                <span style='float:left;'>
+                  <div class='thin dense'>VAT 19%</div>
+                  <div class='thin dense'>Delivery</div>
+                  TOTAL
+                </span>
+                <span style='float:right; text-align:right;'>
+                  <div class='thin dense'>$68.75</div>
+                  <div class='thin dense'>$4.95</div>
+                  $435.55
+                </span>
+              </div>
+      </div>
+      </div>
+              <div class='credit-info'>
+                <a id="close-cart" class="close-cart"><i class="fa-solid fa-circle-xmark"></i></a>
+                <div class='credit-info-content'>
+                  <h2>THÔNG TIN KHÁCH HÀNG</h2>
+                  <form class="form-checkout" action="">
+                    <label class="small mb-1" for="inputFullName">Họ và tên</label>
+                    <input class="form-control" id="inputFullName" type="text" placeholder="Enter your input Full Name" value="Nguyen Tien Hao">
+
+                    <label class="small mb-1" for="inputLocation">Địa chỉ nhận hàng</label>
+                    <input class="form-control" id="inputLocation" type="text" placeholder="Enter your location" value="San Francisco, CA">
+
+                    <label class="small mb-1" for="inputEmailAddress">Email address</label>
+                    <input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" value="name@example.com">
+
+                    <label class="small mb-1" for="inputPhone">Số điện thoại nhận hàng</label>
+                    <input class="form-control" id="inputPhone" type="tel" placeholder="Enter your phone number" value="555-123-4567">
+                  <button class="button checkout">In Hóa Đơn</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+    </div>
+       <!--dashboard-->
+       <!--end cart css cart.html-->
+    </div>
+      <script src="asesst/js/dashboard.js"></script>
+      <script src="asesst/js/button.js"></script>
+    </body>
+    </html>
+    </span>

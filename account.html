@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Admin Dashboard | By Code Info</title>
+      <link rel="stylesheet" href="asesst/css/leftDashBoard.css" />
+      <link rel="stylesheet" href="asesst/css/button.css">
+      <link rel="stylesheet" href="asesst/css/dashboardProduct.css">
+      <link rel="stylesheet" href="asesst/css/dashboard.css">
+      <link rel="stylesheet" href="asesst/css/table.css">
+      <!-- Font Awesome Cdn Link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    </head>
+    <body>
+      <header class="header">
+        <div class="logo">
+          <a href="#">@TingHow</a>
+        </div>
+        <div class="UpLoadContent">
+          <button class="button btn-favourite">New text Content</button>
+          <button class="button btn-favourite">New Img Home Content</button>
+       </div>
+        <div class="header-icons">
+          <div class="account">
+            <img src="asesst/img/av2.jpg" alt="">
+            <h5>Hi, Nguyen</h5>
+          </div>
+        </div>
+      </header>
+
+      
+      <div class="container">
+        <nav>
+          <div class="side_navbar">
+            <span>Main Menu</span>
+            <a href="#" class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="#"><i class="fa-solid fa-box"></i> Product</a>
+            <a href="#"><i class="fa-solid fa-users"></i> Account</a>
+            <a href="#"><i class="fa-solid fa-crown"></i> VIP Customer</a>
+            <a href="#"><i class="fa-solid fa-chart-simple"></i> Chart</a>
+            <a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+          </div>
+        </nav>
+        <!--dashboard css-->
+        <div class="DashBoard">
+          <main class="table" id="customers_table">
+            <section class="table__header">
+                <h1>Accounts</h1>
+                <div class="input-group">
+                    <input type="search" placeholder="Search Data...">
+                    <img src="asesst/img/search.png" alt="">
+                </div>
+            </section>
+            <section class="table__body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Id <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Tên Người Dùng <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> email <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> tài khoản <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Mật khẩu <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Ngày Tạo <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Ngày Sửa <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Địa chỉ <span class="icon-arrow">&UpArrow;</span></th>
+                            <th> Số điện thoại <span class="icon-arrow">&UpArrow;</span></th>
+                            <th>Option</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 1 </td>
+                            <td> <img src="asesst/img/av2.jpg" alt="">Nguyễn Tiến Hảo</td>
+                            <td> 21110291@student.hcmus.edu.vn </td>
+                            <td> Tinghow1234 </td>
+                            <td>
+                                1234
+                            </td>
+                            <td> 2021-21-10</td>
+                            <td> 2022-21-10</td>
+                            <td>0878193742</td>
+                            <td>Bình Dương</td>
+                            <td class="gr-btn">
+                              <a><i class="fa-solid fa-trash"></i></a>
+                              <a><i class="fa-solid fa-eye-slash"></i></a>
+                              <a><i class="fa-regular fa-eye"></i></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1 </td>
+                            <td> <img src="asesst/img/av2.jpg" alt="">Nguyễn Tiến Hảo</td>
+                            <td> 21110291@student.hcmus.edu.vn </td>
+                            <td> Tinghow1234 </td>
+                            <td>
+                                1234
+                            </td>
+                            <td> 2021-21-10</td>
+                            <td> 2022-21-10</td>
+                            <td>0878193742</td>
+                            <td>Bình Dương</td>
+                            <td class="gr-btn">
+                                <a><i class="fa-solid fa-trash"></i></a>
+                                <a><i class="fa-solid fa-eye-slash"></i></a>
+                                <a><i class="fa-regular fa-eye"></i></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> 1 </td>
+                            <td> <img src="asesst/img/av2.jpg" alt="">Nguyễn Tiến Hảo</td>
+                            <td> 21110291@student.hcmus.edu.vn </td>
+                            <td> Tinghow1234 </td>
+                            <td>
+                                1234
+                            </td>
+                            <td> 2021-21-10</td>
+                            <td> 2022-21-10</td>
+                            <td>0878193742</td>
+                            <td>Bình Dương</td>
+                            <td class="gr-btn">
+                                <a><i class="fa-solid fa-trash"></i></a>
+                                <a><i class="fa-solid fa-eye-slash"></i></a>
+                                <a><i class="fa-regular fa-eye"></i></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        </div>
+        <!---->
+      </div>
+      <script src="asesst/js/dashboard.js"></script>
+    </body>
+    </html>
